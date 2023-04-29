@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.enesaksoy.kotlincarflyer.view.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_feedFragment"
+            app:destination="@id/feedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="com.enesaksoy.kotlincarflyer.view.FeedFragment"
+        android:label="FeedFragment" >
+        <action
+            android:id="@+id/action_feedFragment_to_uploadFragment"
+            app:destination="@id/uploadFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/uploadFragment"
+        android:name="com.enesaksoy.kotlincarflyer.view.UploadFragment"
+        android:label="UploadFragment" >
+        <argument
+            android:name="info"
+            app:argType="string"
+            android:defaultValue="new" />
+        <argument
+            android:name="email"
+            app:argType="string"
+            android:defaultValue="old" />
+        <argument
+            android:name="url"
+            app:argType="string"
+            android:defaultValue="old" />
+        <argument
+            android:name="brand"
+            app:argType="string"
+            android:defaultValue="old" />
+        <argument
+            android:name="phonenumber"
+            app:argType="string"
+            android:defaultValue="old" />
+        <argument
+            android:name="address"
+            app:argType="string"
+            android:defaultValue="old" />
+    </fragment>
+</navigation>

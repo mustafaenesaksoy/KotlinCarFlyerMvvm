@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/rowFlyerImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_launcher_background">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/rowBrandText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="car brand"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginStart="5dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/rowAddressText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="17sp"
+            android:layout_marginStart="5dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/rowPhoneNumberText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:textSize="15sp"
+            android:layout_marginStart="5dp">
+
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

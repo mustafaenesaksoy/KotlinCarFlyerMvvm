@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.enesaksoy.kotlincarflyer.app-mergeDebugResources-50:/layout/upload_fragment.xml",
+        "source": "com.enesaksoy.kotlincarflyer.app-main-53:/layout/upload_fragment.xml"
+    },
+    {
+        "merged": "com.enesaksoy.kotlincarflyer.app-mergeDebugResources-50:/layout/activity_main.xml",
+        "source": "com.enesaksoy.kotlincarflyer.app-main-53:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.enesaksoy.kotlincarflyer.app-mergeDebugResources-50:/layout/feed_row.xml",
+        "source": "com.enesaksoy.kotlincarflyer.app-main-53:/layout/feed_row.xml"
+    },
+    {
+        "merged": "com.enesaksoy.kotlincarflyer.app-mergeDebugResources-50:/layout/feed_fragment.xml",
+        "source": "com.enesaksoy.kotlincarflyer.app-main-53:/layout/feed_fragment.xml"
+    },
+    {
+        "merged": "com.enesaksoy.kotlincarflyer.app-mergeDebugResources-50:/layout/login_fragment.xml",
+        "source": "com.enesaksoy.kotlincarflyer.app-main-53:/layout/login_fragment.xml"
+    }
+]
